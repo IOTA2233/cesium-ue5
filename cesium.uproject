@@ -47,6 +47,11 @@
 		{
 			"Name": "HttpBlueprint",
 			"Enabled": true
+		},
+		{
+			"Name": "DTHttpServer",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/a3e624400e9b41ff89d0ec1a5d69b2cf"
 		}
 	]
 }
