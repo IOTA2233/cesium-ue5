@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "2.1",
+	"FriendlyName": "WebSocketServer",
+	"Description": "A WebSocket Server In Blueprints",
+	"Category": "Network",
+	"CreatedBy": "MassSun",
+	"CreatedByURL": "http://dascad.net",
+	"DocsURL": "http://dascad.net/html/websocketserver/doc.pdf",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/83df43efb01d487eba79da5c086b63dc",
+	"SupportURL": "",
+	"EngineVersion": "5.1.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"SupportedTargetPlatforms": [
+		"Win64"
+	],
+	"Modules": [
+		{
+			"Name": "WebSocketServer",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "WebSocketNetworking",
+			"Enabled": true
+		}
+	]
+}
